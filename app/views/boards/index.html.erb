@@ -7,7 +7,7 @@
 <% @principales.each do |board| %>
   <tr id="principal">
     <td><%= link_to board.title, board %><div id="categoria"><%= board.descripcion %>
-      <br/>Moderadores: <%= board.categoria %></div></td>
+      <br/>Categoría: <%= board.categoria %></div></td>
 
 
     <% if board.conversations.exists? %>
@@ -59,7 +59,7 @@
   <% @subforos.each do |subforo| %>
   <tr id="subforo">
     <td><%= link_to subforo.title, subforo %><div id="categoriasubforo"><%= subforo.descripcion %>
-      <br/>Moderadores: <%= subforo.categoria %></div></td>
+      <br/>Categoría: <%= subforo.categoria %></div></td>
 
 
         <% if subforo.conversations.exists? %>
