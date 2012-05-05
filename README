@@ -259,5 +259,8 @@ vendor
   External libraries that the application depends on. Also includes the plugins
   subdirectory. If the app has frozen rails, those gems also go here, under
   vendor/rails/. This directory is in the load path.
+<<<<<<< HEAD
 
 This file was modified by JetBrains RubyMine 4.0.1 for binding GitHub repository
+=======
+>>>>>>> b66ab90e6d997d89b49b96a2458b903f06510f1f
