@@ -18,16 +18,16 @@ ActiveRecord::Schema.define(:version => 20120106221945) do
     t.string   "categoria"
     t.string   "descripcion"
     t.integer  "padre"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
   end
 
   create_table "comments", :force => true do |t|
     t.integer  "user_id"
     t.integer  "conversation_id"
     t.text     "body"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
   end
 
   create_table "conversations", :force => true do |t|
@@ -37,8 +37,8 @@ ActiveRecord::Schema.define(:version => 20120106221945) do
     t.text     "cuerpo"
     t.date     "fechaultcom"
     t.integer  "puntaje"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
   end
 
   add_index "conversations", ["board_id"], :name => "index_conversations_on_board_id"
@@ -49,13 +49,13 @@ ActiveRecord::Schema.define(:version => 20120106221945) do
     t.integer  "destinatario_id"
     t.string   "titulo"
     t.text     "cuerpo"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
   end
 
   create_table "user_sessions", :force => true do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "users", :force => true do |t|
@@ -75,8 +75,8 @@ ActiveRecord::Schema.define(:version => 20120106221945) do
     t.string   "provincia"
     t.integer  "puntuacion"
     t.string   "rango"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
   end
 
   create_table "votes", :force => true do |t|
@@ -85,8 +85,8 @@ ActiveRecord::Schema.define(:version => 20120106221945) do
     t.integer  "voter_id"
     t.string   "voter_type"
     t.boolean  "vote_flag"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
   add_index "votes", ["votable_id", "votable_type"], :name => "index_votes_on_votable_id_and_votable_type"

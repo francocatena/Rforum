@@ -1,17 +1,16 @@
 source 'http://rubygems.org'
 
-<<<<<<< HEAD
 gem 'rails', '3.2.3'
-=======
-gem 'rails', '3.1.3'
->>>>>>> b66ab90e6d997d89b49b96a2458b903f06510f1f
+
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 group :development do
-  gem 'sqlite3'
+  gem 'pg'
 end
+
+gem 'mongrel', '>= 1.2.0.pre2'
 
 group :production do
   gem 'pg'
@@ -20,13 +19,10 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-<<<<<<< HEAD
+
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-=======
-  gem 'sass-rails',   '~> 3.1.5'
-  gem 'coffee-rails', '~> 3.1.1'
->>>>>>> b66ab90e6d997d89b49b96a2458b903f06510f1f
+
   gem 'uglifier', '>= 1.0.3'
 end
 
@@ -51,6 +47,6 @@ gem 'acts_as_votable'
 
 group :test do
   # Pretty printed test output
-  gem 'sqlite3'
+  gem 'pg'
   gem 'turn', '0.8.2', :require => false
 end

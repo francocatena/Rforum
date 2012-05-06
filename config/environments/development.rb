@@ -27,10 +27,7 @@ Animanga::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
-<<<<<<< HEAD
 
   #raise exception on mass assignment protection for Active Record models
   config.active_record.mass_assignment_sanitizer = :strict
-=======
->>>>>>> b66ab90e6d997d89b49b96a2458b903f06510f1f
 end
