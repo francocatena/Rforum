@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="208d043e-cfa9-4f8e-8acf-dd533e8e9278" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\plugins\.gitkeep" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Rforum.iws" />
@@ -709,7 +708,11 @@
       <created>1336795572316</created>
       <updated>1336795572316</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Quitado vendor/plugins">
+      <created>1336796616520</created>
+      <updated>1336796616520</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -791,7 +794,7 @@
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadidos estados a los mensajes personales, lógica de cambios de estados, añadida plantilla css para altas resoluciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quitado vendor/plugins" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -808,6 +811,7 @@
     <MESSAGE value="Quitado link para nuevo usuario que aparecia al ingresar como Admin" />
     <MESSAGE value="Intento2 de doble Heroku-github commits" />
     <MESSAGE value="Añadidos estados a los mensajes personales, lógica de cambios de estados, añadida plantilla css para altas resoluciones" />
+    <MESSAGE value="Quitado vendor/plugins" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
