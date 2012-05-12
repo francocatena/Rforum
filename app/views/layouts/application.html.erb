@@ -4,7 +4,7 @@
   <title>Foro de cursos del CETEM</title>
   <%= stylesheet_link_tag    "application", rel:"stylesheet", title:"normal" %>
   <!--<%#= stylesheet_link_tag    "applicationBig.css", rel:"alternate stylesheet", title:"big" %>-->
-  <link href="http://reproductoranimedake.site90.net/Semidioses5g/applicationBig.css" type="text/css" rel="alternate stylesheet" title="big" />
+  <link href="http://reproductoranimedake.site90.net/Semidioses5g/RforumBig.css" type="text/css" rel="alternate stylesheet" title="big" />
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
@@ -64,8 +64,8 @@
       <%= @usuario.rango %><br/>
       Comentarios: <%= @usuario.comments.count %><br/>
       Registrado: <%= @usuario.created_at.to_s(:simple) %><br/><br/>
-      <%= link_to 'Bandeja de entrada', recibidos_path %> (<%= @usuario.msjrecibidos.count %>)<br/>
-      <%= link_to 'Mensajes enviados', enviados_path%>  (<%= @usuario.msjenviados.count %>)<br/><br/>
+      <%= link_to 'Bandeja de entrada', recibidos_path %> (<%= User.recibidosnuevos(@usuario) %>)<br/>
+      <%= link_to 'Mensajes enviados', enviados_path%> <br/><br/>
 
   </div><br/>
       <form>

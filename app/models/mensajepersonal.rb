@@ -5,4 +5,6 @@ class Mensajepersonal < ActiveRecord::Base
 
   has_many :respuestas, :class_name => 'Mensajepersonal'
 
+  default_scope :order => 'created_at'
+
 end

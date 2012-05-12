@@ -17,6 +17,11 @@ class MensajepersonalsController < ApplicationController
   def show
     @mensajepersonal = Mensajepersonal.find(params[:id])
 
+    if @mensajepersonal.estado== 1
+      @mensajepersonal.estado = 2 if @mensajepersonal.destinatario == get_usuario
+      @mensajepersonal.save
+    end
+
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @mensajepersonal }
@@ -43,6 +48,7 @@ class MensajepersonalsController < ApplicationController
   # POST /mensajepersonals.json
   def create
     @mensajepersonal = get_usuario.msjenviados.build(params[:mensajepersonal])
+    @mensajepersonal.estado = 1
 
     respond_to do |format|
       if @mensajepersonal.save
@@ -76,19 +82,35 @@ class MensajepersonalsController < ApplicationController
   # DELETE /mensajepersonals/1.json
   def destroy
     @mensajepersonal = Mensajepersonal.find(params[:id])
-    @mensajepersonal.destroy
+
+    vinicial = valorestado = @mensajepersonal.estado
+
+    if @mensajepersonal.destinatario == get_usuario
+      valorestado=10
+    elsif @mensajepersonal.remitente == get_usuario
+      valorestado=20
+    end
+
+    @mensajepersonal.estado = valorestado
+
+    if vinicial+valorestado == 30 || @mensajepersonal.remitente == @mensajepersonal.destinatario
+      @mensajepersonal.destroy
+    else
+      @mensajepersonal.save
+    end
 
     respond_to do |format|
       format.html { redirect_to recibidos_url }
+
       format.json { head :ok }
     end
   end
 
   def recibidos
-    @recibidos= Mensajepersonal.where(:destinatario_id => get_usuario)
+    @recibidos= Mensajepersonal.where('destinatario_id =?',get_usuario).where('estado !=?',10)
   end
 
   def enviados
-    @enviados = Mensajepersonal.where(:remitente_id=>get_usuario)
+    @enviados = Mensajepersonal.where('remitente_id =?', get_usuario).where('estado !=?',20)
   end
 end

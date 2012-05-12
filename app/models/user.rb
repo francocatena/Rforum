@@ -9,4 +9,8 @@ class User < ActiveRecord::Base
   has_many :msjrecibidos, :class_name => 'Mensajepersonal', :foreign_key => 'destinatario_id'
 
   has_many :usuario_cancions
+
+  def self.recibidosnuevos(user)
+    user.msjrecibidos.where('estado =?',1).count
+  end
 end

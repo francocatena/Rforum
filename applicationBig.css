@@ -1,7 +1,7 @@
 
 html {
         padding-top: -25px;
-        background: url('http://i264.photobucket.com/albums/ii190/zeropetroquimico/Foro%20semidioses/fondopagina.jpg') no-repeat center center fixed;
+        background: url('http://www.zastavki.com/pictures/1280x800/2009/3D-graphics_White_cell_018124_.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -18,20 +18,20 @@ h1{
     text-align: left;
 }
 h1 div#cabecera{
-    background-color: #8FB6EA;
+    background-color: #9c0007;
     text-align:center;
     border-radius: 15px;
     padding: 5px;
 }
 
 div#titulo{
-    background-color: #8FB6EA;
+    background-color: #9c0007;
     color: #ffffff;
     border-radius: 10px;
-    border: 5px solid #8FB6EA;
+    border: 5px solid #9c0007;
 }
 #banner{
-    background-color: #8FB6EA;
+    background-color: #9c0007;
     height: 50px;
     width: 100%;
     text-align: center;
@@ -42,7 +42,7 @@ div#titulo{
 }
 #banner h1{
     color: #ffffff;
-    text-shadow: 3px 3px 3px #cccccc;
+    text-shadow: 3px 3px 3px #ad615d;
     /*font-family: freestylescript;
     font-size: 38px;*/
     height: 10px;
@@ -54,42 +54,45 @@ div #logueo{
     float: right;
     height: 22px;
     padding-top: 4px;
-    background-color: #333333;
+    background-color: #000000;
+    border-top: 2px solid #630007;
 }
 div #menu{
     height: 22px;
     padding-top: 4px;
     /*background-color: #E2F0FF;*/
-    background-color: #333333;
+    background-color: #000000;
+    border-top: 2px solid #630007;
 
 }
 
 #banner a{
     text-decoration: none;
-    background-color: #8FB6EA;
+    background-color: #9c0007;
     border: 1px solid #333333;
-    color: #000000;
+    color: #ffffff;
     padding: 1px 4px 1px 4px;
     border-radius: 10px;
 
-    transition: background-color .25s, border .25s;
-    -webkit-transition: background-color .25s, border .25s;
-    -moz-transition: background-color .25s, border .25s;
-    -o-transition: background-color .25s, border .25s;
+    transition: background-color .25s, border .25s,color .20s;
+    -webkit-transition: background-color .25s, border .25s,color .20s;
+    -moz-transition: background-color .25s, border .25s,color .20s;
+    -o-transition: background-color .25s, border .25s,color .20s;
 }
 #banner a:hover{
-    background-color: #E2F0FF;
-    border: 1px solid #8FB6EA;
+    background-color: #420007;
+    border: 1px solid #9c0007;
+    color: #ffffff;
 
-    transition: background-color .25s, border .25s;
-    -webkit-transition: background-color .25s, border .25ss;
-    -moz-transition: background-color .25s, border .25s;
-    -o-transition: background-color .25s, border .25s;
+    transition: background-color .25s, border .25s,color .20s;
+    -webkit-transition: background-color .25s, border .25s,color .20s;
+    -moz-transition: background-color .25s, border .25s,color .20s;
+    -o-transition: background-color .25s, border .25s,color .20s;
 }
 
 footer p{
     text-align: right;
-    font-size: 8px;
+    font-size: 9px;
 }
 
 #ocultador{
@@ -111,7 +114,7 @@ footer p{
 }
 #ocultador:hover{
     border-radius: 10px;
-    background-color: #8FB6EA;
+    background-color: #630007;
 
     transition: background-color .25s;
     -webkit-transition: background-color .25s;
@@ -140,7 +143,8 @@ footer p{
 }
 #izquierda a:hover{
     border-radius: 10px;
-    background-color: #8FB6EA;
+    background-color: #630007;
+    color: #ffffff;
 
     transition: background-color .25s, color .25s;
     -webkit-transition: background-color .25s, color .25s;
@@ -173,7 +177,8 @@ footer p{
 }
 #derecha a:hover{
     border-radius: 10px;
-    background-color: #8FB6EA;
+    background-color: #630007;
+    color: #ffffff;
 
     transition: background-color .25s, color .25s;
     -webkit-transition: background-color .25s, color .25s;
@@ -208,8 +213,8 @@ div#ultimoscomentarios{
     padding: 10px;
 }
 #ultimoscomentarios span{
-    background-color: #8FB6EA;
-    color: #000000;
+    background-color: #9c0007;
+    color: #ffffff;
     padding: 2px;
     border-radius: 10px;
 }
@@ -227,8 +232,6 @@ div#ultimoscomentarios{
 #ultimoscomentarios #lineaUltCom a{
     color: #ffffff;
     font-weight: bold;
-}#ultimoscomentarios #lineaUltCom a:hover{
-    color: #000000;
 }
 
 
@@ -243,7 +246,7 @@ div#bloqueUsuario{
     font-weight: bold;
     position: relative;
     left: 23%;
-    background-color: #8FB6EA;
+    background-color: #9c0007;
     color: #ffffff;
     padding: 2px;
     border-radius: 10px;
@@ -279,15 +282,13 @@ div#reproductor{
 }
 #centro a:hover{
     border-radius: 10px;
-    background-color: #8FB6EA;
+    background-color: #630007;
+    color: #ffffff;
 
-    transition: background-color .25s;
-    -webkit-transition: background-color .25s;
-    -moz-transition: background-color .25s;
-    -o-transition: background-color .25s;
-}
-#centro a:visited{
-    color:#000000;
+    transition: background-color .25s,color .15s;
+    -webkit-transition: background-color .25s,color .15s;
+    -moz-transition: background-color .25s,color .15s;
+    -o-transition: background-color .25s,color .15s;
 }
 
 #foros{
@@ -303,9 +304,13 @@ div#reproductor{
     background-color: #9CE28E;
 }
 
+#foros #cabecera{
+  color:#ffffff;
+}
+
 #principal{
-    background-color: #8FB6EA;
-    border-top: 2px solid #8FB6EA;
+    background-color: #9c0007;
+    border-top: 2px solid #9c0007;
 }
 #principal td{
     color: #000000;
@@ -325,8 +330,8 @@ div#reproductor{
     color:#000000;
  }
  #principal td a:hover{
-    color: #8FB6EA;
-    background-color:#000000;
+     color: #9c0007;
+     background-color:#ffffff;
     border-radius:10px;
 
     transition: background-color .25s, color .25s;
@@ -337,7 +342,7 @@ div#reproductor{
 
 
 #subforo{
-    border-bottom: 1px solid #8FB6EA;
+    border-bottom: 1px solid #9c0007;
 }
 #subforo a{
     font-weight: bold;
@@ -353,7 +358,7 @@ div#reproductor{
 
 
 tr#cabecera{
-    background-color: #8FB6EA;
+    background-color: #9c0007;
     text-align:center;
 }
 
@@ -362,14 +367,14 @@ div #creadoPor{
     font-style:italic;
 }
 tr#postPar{
-    background-color: #d1e8ff;
+    background-color: #ffa490;
     text-align:center;
 }
 tr#postPar a, tr#postImpar a{
     font-weight: bold;
 }
 tr#postImpar{
-    background-color: #E2F0FF;
+    background-color: #ffc1ad;
     text-align:center;
 }
 td#tyc{
@@ -384,19 +389,19 @@ td#ultcoment{
 }
 
 div#forosHijoEnBoardShow a{
-    background-color: #E2F0FF ;
+    background-color: #ffc1ad ;
     border-radius: 10px;
 }
 #separadorForos{
-    border: .5px solid #224677;
-    background-color: #224677;
+    border: .5px solid #630007;
+    background-color: #630007;
 }
 
 
 /*conversations*/
 #primercomentario{
     width: 98%;
-    border: 3px solid #8FB6EA;
+    border: 3px solid #9c0007;
     border-collapse: collapse;
     border-radius: 15px;
     padding:5px;
@@ -405,14 +410,14 @@ div#forosHijoEnBoardShow a{
 
 #cuerpoPrimerComentario{
     min-height: 285px;
-    border-left: 2px dashed #8FB6EA;
+    border-left: 2px dashed #000000;
     width: auto;
     margin-left: 165px;
     padding: 5px;
 }
 #cuerpoPrimerComentario div#firmaEnComentario{
     text-align: center;
-    border-top: 2px dashed #8FB6EA;
+    border-top: 2px dashed #000000;
     padding-top: 5px;
 }
 #cuerpoPrimerComentario #fecha{
@@ -433,7 +438,7 @@ div#forosHijoEnBoardShow a{
     float: left;
 }
 #usuarioEnPrimerComentario img{
-    border: 2px solid #8FB6EA;
+    border: 2px solid #9c0007;
     border-radius: 5px;
     max-width: 140px;
     max-height: 150px;
@@ -450,18 +455,18 @@ div#forosHijoEnBoardShow a{
     background: url('http://i264.photobucket.com/albums/ii190/zeropetroquimico/Foro%20semidioses/fondoc.png') repeat ;
 }
 #comentariospar #cuerpoComentario{
-    border-right: 2px dashed #8FB6EA;
+    border-right: 2px dashed #9c0007;
 }
 #comentariospar #cuerpoComentario div#firmaEnComentario{
-    border-top: 2px dashed #8FB6EA;
+    border-top: 2px dashed #9c0007;
 }
 #comentariospar #usuarioEnComentario img{
-    border: 2px solid #8FB6EA;
+    border: 2px solid #9c0007;
 }
 
 #comentariosimpar{
     width: 98%;
-    border: 3px solid #8FB6EA;
+    border: 3px solid #9c0007;
     border-collapse: collapse;
     border-radius: 15px;
     padding:5px;
@@ -542,9 +547,9 @@ div#forosHijoEnBoardShow a{
     position:absolute;
     top: -5px;
     left: -10px;
-    background-color:#8FB6EA;
+    background-color:#9c0007;
     padding: 5px;
-    border:#8FB6EA solid 2px;
+    border:#9c0007 solid 2px;
     margin: 10px;
     border-radius: 10px;
 }
@@ -552,9 +557,9 @@ div#forosHijoEnBoardShow a{
     position:absolute;
     top: -5px;
     left: -30px;
-    background-color:#8FB6EA;
+    background-color:#9c0007;
     padding: 5px;
-    border:#8FB6EA solid 2px;
+    border:#9c0007 solid 2px;
     margin: 10px;
     border-radius: 10px;
 }
@@ -584,18 +589,18 @@ div#forosHijoEnBoardShow a{
 /*Mensajepersonals*/
 
 #lineaPM{
-    border:1px solid #8FB6EA;
+    border:1px solid #9c0007;
     text-align: center;
 }
 #lineaPm{
-    border:1px solid #8FB6EA;
+    border:1px solid #9c0007;
 }
 
 
 /*show*/
 #cuerpoPM{
     background-color: #ffffff;
-    border: 1px solid #8FB6EA;
+    border: 1px solid #9c0007;
     padding: 10px;
 }
 

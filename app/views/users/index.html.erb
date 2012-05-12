@@ -24,7 +24,7 @@
         <%= link_to 'Editar', edit_user_path(user) %>
         <%= link_to 'Destruir', user, confirm: 'Estas seguro?', method: :delete %>
       <% end %>
-        <%= link_to "Enviar mensaje", new_mensajepersonal_url(:destinatario_id => user) %>
+        <%= link_to "Enviar mensaje", new_mensajepersonal_url(:destinatario_id => user) unless user==get_usuario%>
     </td>
   </tr>
 <% end %>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120106221945) do
+ActiveRecord::Schema.define(:version => 20120507033440) do
 
   create_table "boards", :force => true do |t|
     t.string   "title",       :limit => 50
@@ -51,6 +51,7 @@ ActiveRecord::Schema.define(:version => 20120106221945) do
     t.text     "cuerpo"
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
+    t.integer  "estado"
   end
 
   create_table "user_sessions", :force => true do |t|
