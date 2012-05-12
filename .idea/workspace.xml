@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="208d043e-cfa9-4f8e-8acf-dd533e8e9278" name="Default" comment="">
+    <list default="true" id="208d043e-cfa9-4f8e-8acf-dd533e8e9278" name="Default" comment="BBCoder personalizado movido de vendor/bbcoder a lib/bbcoder">
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\.gemtest" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/.gemtest" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\.rspec" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/.rspec" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\Gemfile" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/Gemfile" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\Gemfile.lock" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/Gemfile.lock" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\LICENSE" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/LICENSE" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\README.md" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/README.md" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\Rakefile" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/Rakefile" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\bbcoder.gemspec" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/bbcoder.gemspec" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\lib\bbcoder.rb" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/lib/bbcoder.rb" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\lib\bbcoder\base.rb" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/lib/bbcoder/base.rb" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\lib\bbcoder\buffer.rb" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/lib/bbcoder/buffer.rb" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\lib\bbcoder\buffer_tags.rb" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/lib/bbcoder/buffer_tags.rb" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\lib\bbcoder\configuration.rb" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/lib/bbcoder/configuration.rb" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\lib\bbcoder\string.rb" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/lib/bbcoder/string.rb" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\lib\bbcoder\tag.rb" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/lib/bbcoder/tag.rb" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\lib\bbcoder\version.rb" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/lib/bbcoder/version.rb" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\spec\base_spec.rb" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/spec/base_spec.rb" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\spec\bbcoder_spec.rb" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/spec/bbcoder_spec.rb" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\spec\buffer_spec.rb" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/spec/buffer_spec.rb" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\spec\buffer_tags_spec.rb" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/spec/buffer_tags_spec.rb" />
+      <change type="MOVED" beforePath="C:\Users\Lucas\Rails\Rforum\vendor\bbcoder-0.1.5\spec\spec_helper.rb" afterPath="$PROJECT_DIR$/lib/bbcoder-0.1.5/spec/spec_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
     </list>
     <ignored path="Rforum.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +49,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="1177" selection-end="1177" vertical-scroll-proportion="-16.346153">
+            <state line="25" column="0" selection-start="1177" selection-end="1177" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
@@ -60,10 +82,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mensajepersonals_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mensajepersonals_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/mensajepersonals_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="20" selection-start="2618" selection-end="2618" vertical-scroll-proportion="-0.12755102">
+            <state line="99" column="61" selection-start="2916" selection-end="2916" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="environment.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environment.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="364" selection-end="364" vertical-scroll-proportion="0.47704083">
               <folding />
             </state>
           </provider>
@@ -72,8 +103,15 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="112" selection-start="758" selection-end="758" vertical-scroll-proportion="-13.076923">
-              <folding />
+            <state line="26" column="112" selection-start="758" selection-end="758" vertical-scroll-proportion="-6.230769">
+              <folding>
+                <marker date="1336795046867" expanded="true" signature="92:796" placeholder="..." />
+                <marker date="1336795046867" expanded="true" signature="99:233" placeholder="..." />
+                <marker date="1336795046867" expanded="true" signature="251:785" placeholder="do ... end" />
+                <marker date="1336795046867" expanded="true" signature="269:777" placeholder="..." />
+                <marker date="1336795046867" expanded="true" signature="424:769" placeholder="..." />
+                <marker date="1336795046867" expanded="true" signature="435:642" placeholder="if ... end" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,7 +119,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/mensajepersonals/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="700" selection-end="700" vertical-scroll-proportion="-9.5">
+            <state line="23" column="0" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,6 +160,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/mensajepersonals_controller.rb" />
+        <option value="$PROJECT_DIR$/config/environment.rb" />
       </list>
     </option>
   </component>
@@ -193,6 +232,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rforum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rforum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -331,7 +384,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
+    <property name="options.lastSelected" value="http.proxy" />
     <property name="recentsLimit" value="5" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
@@ -344,10 +397,11 @@
       <recent name="C:\Users\Lucas\Rails\Rforum\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lucas\Rails\Rforum\lib" />
       <recent name="C:\Users\Lucas\Rails\Rforum" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: Rforum">
+  <component name="RunManager" selected="Rails.Production: Rforum">
     <configuration default="false" name="Default" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console" temporary="true">
       <option name="VM_PARAMETERS" value="" />
       <option name="USER_CFG_CLASS" />
@@ -712,7 +766,11 @@
       <created>1336796616520</created>
       <updated>1336796616520</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Quitado vendor/plugins">
+      <created>1336796629021</created>
+      <updated>1336796629021</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -737,23 +795,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1294" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.49674797" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.0" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878049" sideWeight="0.3246154" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22764228" sideWeight="0.67230767" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23577236" sideWeight="0.67230767" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.49756098" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3276923" sideWeight="0.0" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.6666667" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3276923" sideWeight="0.32764226" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.0" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.49674797" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -794,7 +852,7 @@
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quitado vendor/plugins" />
+    <option name="LAST_COMMIT_MESSAGE" value="BBCoder personalizado movido de vendor/bbcoder a lib/bbcoder" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -812,109 +870,121 @@
     <MESSAGE value="Intento2 de doble Heroku-github commits" />
     <MESSAGE value="Añadidos estados a los mensajes personales, lógica de cambios de estados, añadida plantilla css para altas resoluciones" />
     <MESSAGE value="Quitado vendor/plugins" />
+    <MESSAGE value="BBCoder personalizado movido de vendor/bbcoder a lib/bbcoder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/boards/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="4" selection-start="4036" selection-end="4036" vertical-scroll-proportion="4.7677054" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/board.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="47" selection-start="386" selection-end="386" vertical-scroll-proportion="0.4214876" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/mensajepersonal.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="38" selection-start="290" selection-end="290" vertical-scroll-proportion="0.3043478" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20120106221945_create_mensajepersonals.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="376" selection-end="376" vertical-scroll-proportion="0.028716216">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/mensajepersonals/recibidos.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="65" selection-start="407" selection-end="407" vertical-scroll-proportion="-4.576923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/mensajepersonals/enviados.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="70" selection-start="409" selection-end="409" vertical-scroll-proportion="0.20552677">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="27" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="51" column="27" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="329" selection-end="416" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applicationBig.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="106" selection-start="142" selection-end="142" vertical-scroll-proportion="0.08614865">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="120" selection-start="39" selection-end="120" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20120507033440_add_estado_to_mensajepersonal.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="12" column="19" selection-start="329" selection-end="416" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/mensajepersonals/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="700" selection-end="700" vertical-scroll-proportion="-9.5">
+        <state line="23" column="0" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="24" selection-start="365" selection-end="365" vertical-scroll-proportion="-1.0816326">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/boot.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="1177" selection-end="1177" vertical-scroll-proportion="-16.346153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="112" selection-start="758" selection-end="758" vertical-scroll-proportion="-13.076923">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/mensajepersonals_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="20" selection-start="2618" selection-end="2618" vertical-scroll-proportion="-0.12755102">
+        <state line="99" column="61" selection-start="2916" selection-end="2916" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/wrap_parameters.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/backtrace_silencers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="51" selection-start="578" selection-end="578" vertical-scroll-proportion="-0.13010204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="42" selection-start="356" selection-end="356" vertical-scroll-proportion="-1.4719387">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bbcoder-0.1.5/lib/bbcoder.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="29" selection-start="1129" selection-end="1129" vertical-scroll-proportion="2.7755103">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="112" selection-start="758" selection-end="758" vertical-scroll-proportion="-6.230769">
+          <folding>
+            <marker date="1336795046867" expanded="true" signature="92:796" placeholder="..." />
+            <marker date="1336795046867" expanded="true" signature="99:233" placeholder="..." />
+            <marker date="1336795046867" expanded="true" signature="251:785" placeholder="do ... end" />
+            <marker date="1336795046867" expanded="true" signature="269:777" placeholder="..." />
+            <marker date="1336795046867" expanded="true" signature="424:769" placeholder="..." />
+            <marker date="1336795046867" expanded="true" signature="435:642" placeholder="if ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bbcoder-0.1.5/bbcoder.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bbcoder-0.1.5/lib/bbcoder.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="51" selection-start="309" selection-end="309" vertical-scroll-proportion="-1.8707124">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="364" selection-end="364" vertical-scroll-proportion="0.47704083">
           <folding />
         </state>
       </provider>
