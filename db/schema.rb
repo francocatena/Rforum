@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120507033440) do
+ActiveRecord::Schema.define(:version => 20120516144209) do
 
   create_table "boards", :force => true do |t|
     t.string   "title",       :limit => 50
@@ -76,8 +76,9 @@ ActiveRecord::Schema.define(:version => 20120507033440) do
     t.string   "provincia"
     t.integer  "puntuacion"
     t.string   "rango"
-    t.datetime "created_at",        :null => false
-    t.datetime "updated_at",        :null => false
+    t.datetime "created_at",                          :null => false
+    t.datetime "updated_at",                          :null => false
+    t.boolean  "notify_by_email",   :default => true
   end
 
   create_table "votes", :force => true do |t|

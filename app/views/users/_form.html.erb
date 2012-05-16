@@ -68,6 +68,10 @@
     <%= f.label :pagweb, "Pagina web" %><br />
     <%= f.text_field :pagweb %>
   </div>
+  <div class="field">
+    <%= f.label :notify_by_email, "Recibir notificaciones por correo" %><br />
+    <%= f.check_box :notify_by_email %>
+  </div>
 
   <% if es_administrador %>
   <div class="field">

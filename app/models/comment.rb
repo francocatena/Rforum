@@ -1,11 +1,17 @@
 class Comment < ActiveRecord::Base
   acts_as_votable
 
+  after_create :send_by_email
+
   belongs_to :conversation
   belongs_to :user
   validates :body, :presence => true
 
   default_scope :order => 'id'
+
+  def send_by_email
+    Notifier.new_comment(self).deliver
+  end
 
   def self.ultimo(idconversation)
     Comment.where('conversation_id = ?', idconversation)
