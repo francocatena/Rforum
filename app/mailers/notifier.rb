@@ -1,5 +1,5 @@
 class Notifier < ActionMailer::Base
-  default from: "'Rforum' <#{APP_CONFIG['smtp']['user_name']}>"
+  default from: "'Rforum' <#{ENV['RF_EMAIL']}>"
 
   def new_comment(comment)
     @comment = comment
